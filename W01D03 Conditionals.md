@@ -342,12 +342,12 @@ getGrade(51); // => D
      // TODO: Your code here
    };
 
-   endsWith("Hello", "o"); // => true
-   endsWith("Hello", "O"); // => true
-   endsWith("hellO", "o"); // => true
-   endsWith("World", "h"); // => false
-   endsWith("World", "a"); // => false
-   endsWith("World", "c"); // => false
+  endsWith("Hello", "o"); // => true
+  endsWith("hellO", "o"); // => true
+  endsWith("Yes", "S"); // => true
+  endsWith("World", "h"); // => false
+  endsWith("World", "a"); // => false
+  endsWith("Person", "r"); // => false
    ```
 
 5. Write a function `deposit` that accepts an argument `amount` and returns the deposited amount. The function should only accept positive number arguments otherwise return `"Please enter a positive number"` if it is not positive and return `"Please enter a number"` if the type of the argument is not a number.
